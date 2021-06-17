@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+{% block title %}Jeremie Cyrille{% endblock %}
+{% block body %}
+{%include 'frnavbar.html.twig'%}
+    <div class="content">
+      <div class="container">
+        <div class="row pt-10">
+          <div class="col-12">
+            <p class="fade-in-text">
+              Bonjour, je suis Jérémie CYRILLE ! Je suis en licence CS à l'ETNA.<br/>
+              Ceci est le résumé de tous mes projets et compétences que je pratique et
+              apprend<br/>
+              Je donne aussi toutes les informations sur ma carrière.<br/>
+            </p>
+          </div>
+                    <div class="col-12">
+            <a href="{{path('fr_carrer')}}" class="external-light">En savoir plus</a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  {%include 'footer.html.twig'%} 
+{% endblock %}

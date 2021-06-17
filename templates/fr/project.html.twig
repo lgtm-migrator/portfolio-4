@@ -1,0 +1,84 @@
+{% extends 'base.html.twig' %}
+{% block title %}Jeremie Cyrille{% endblock %}
+{% block body %}
+{%include 'frnavbar.html.twig'%}
+    <div class="content">
+        <div class="container">
+
+        <div class="row pt-10">
+            <div class="col-12">
+                <a href="#">
+                    <article>
+                        <figure>
+                           <img src="{{asset('build/caribeanDiet.png')}}" alt="test">
+                        </figure>
+                        <figcaption>
+                            <h1>Carribean Diet</h1>
+                            <p>HTML/CSS/JS(jquery) - personnel - Terminé</p>
+                            <p>
+                                Mise en place d'une esquisse de site web pour un projet de restauration.
+                            </p>
+                        </figcaption>
+                    </article>
+                </a>
+            </div>        
+        </div>
+
+        <div class="row pt-10">
+            <div class="col-6">
+                <a href="#">
+                    <article>
+                        <figure>
+                            <img src="{{asset('build/logov2.jpg')}}" alt="test">
+                        </figure>
+                        <figcaption>
+                            <h1>MonAideAppart</h1>
+                            <p>HTML/CSS/JS -ETNA(concours tech for good)</p>
+                            <p>
+                                Projet de site web /app pour l'aide au logement de etudiant<br/> realiser dans le cadre de l'inovcamp a l'ETNA
+                            </p>
+                        </figcaption>
+                    </article>
+                </a>
+            </div>
+            <div class="col-6">
+                <a href="#">
+                    <article>
+                        <figure>
+                            <img src="{{asset('build/google-meet6719.jpg')}}" alt="test">
+                        </figure>
+                        <figcaption>
+                            <h1>Recenseur de presence meet</h1>
+                            <p>JS - personnel - en cours</p>
+                            <p>
+                                Mise en place d'un système de comptage de présence pour le site meet.
+                            </p>
+                        </figcaption>
+                    </article>
+                </a>
+            </div>          
+        </div>
+
+        <div class="row pt-10">
+            <div class="col-12">
+                <a href="#">
+                    <article>
+                        <figure>
+                            <img src="{{asset('build/nasa-v2-3840×2160.jpg')}}" alt="test">
+                        </figure>
+                        <figcaption>
+                            <h1>Portfolio</h1>
+                            <p>PHP(symfony) -ETNA - en cours</p>
+                            <p>
+                                Template open source pour la creation d'un portfolio front (html/css/js) et back (mysql).
+                            </p>
+                        </figcaption>
+                    </article>
+                </a>
+            </div>        
+        </div>
+
+        </div>
+    </div>
+{%include 'footer.html.twig'%}
+{% endblock %}

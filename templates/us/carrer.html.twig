@@ -1,0 +1,58 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Carrer{% endblock %}
+
+{% block body %}
+{%include 'usnavbar.html.twig'%}
+    <div class="content">
+        <div class="container">
+
+            <div class="row pt-10">
+                <div class="col-2">
+                    <h1>About me</h1>
+                </div>
+                <div class="col-9">
+                    <p class="fade-in-text">
+                        Hello, my name is Jérémie CYRILLE, I have just turned 20, and I am passionate about computers.<br>
+                        I am from Martinique, and I decided at the start of my high school to take a bac S (obtained with honors) to pursue studies in computer science, internationally.<br>
+                        At the age of 17, I joined the University of Quebec and Trois-Rivières to obtain a diploma in Computer Science (Electrical and Computer Engineering, then bachelors degree in Computer Science). The crisis engendered by COVID-19 disrupted the Quebec university, which led me to look for another course to complete the 2 years of studies validated in Quebec.
+                        I chose ETNA, which won me over with the combination of robust theoretical training and professional, immediate and intensive application of this training. So I joined ETNA to finalize my Bachelor in Computing Science, which I will complete with a Master in the same field.
+                    </p>          
+                </div>
+            </div> 
+
+            <div class="row pt-10">
+                <div class="col-9">
+                    <p>2018-2019</p>
+                    <p>Electrical engenering at Universite du Quebec a Trois Rivières in Canada</p>
+                </div>
+                <div class="col-2">
+                    <img src="{{asset('build/v-UQTR.png')}}" alt="test">
+                </div>
+            </div>
+
+        <div class="row pt-10">
+          <div class="col-2">
+            <img src="{{asset('build/v-UQTR.png')}}" alt="test">
+          </div>
+          <div class="col-9 text-al-end">
+            <p>2019-2020</p>
+            <p>Bachelor CS  at Universite du Quebec a Trois Rivières in Canada</p>
+          </div>
+        </div>
+
+            <div class="row pt-10">
+                <div class="col-9">
+                    <p>2020-2021</p>
+                    <p>Bachelor CS at ETNA, Ecole des Technologies Numériques Avancées - Campus Paris-Ivry</p>
+                </div>
+                <div class="col-2">
+                    <img src="{{asset('build/UHXzdngc_400x400.jpeg')}}" alt="test">
+                </div>
+            </div>
+
+        </div>
+      </div>
+    </div> 
+    {%include 'footer.html.twig'%}
+{% endblock %}

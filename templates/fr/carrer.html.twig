@@ -1,0 +1,58 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Carrer{% endblock %}
+
+{% block body %}
+{%include 'frnavbar.html.twig'%}
+    <div class="content">
+        <div class="container">
+
+            <div class="row pt-10">
+                <div class="col-2">
+                    <h1>About me</h1>
+                </div>
+                <div class="col-9">
+                    <p class="fade-in-text">
+                        Bonjour, je m'appelle Jeremie Cyrille, j'ai 20 ans et je suis passioner d'electronique et informatique.<br>
+                        je viens de Martinique, et j'ai decider de commencer mes etude superieur orienter informatique a l'etranger apres avoir obtenue mon bac S (avec mention).<br>
+                        À 17 ans, je me suis aller etudier à l'Université du Québec et à Trois-Rivières pour obtenir un diplôme en informatique (génie électrique et informatique, puis un baccalauréat en informatique). La crise engendrée par la COVID-19 a perturbé l'université québécoise, ce qui m'a amené à chercher un autre cours pour compléter les 2 années d'études validées au Québec.
+                        J'ai choisi l'ETNA qui m'a séduit par la combinaison d'une solide formation théorique et d'une application professionnelle, immédiate et intensive de cette formation. J'ai donc rejoint l'ETNA pour finaliser mon Bachelor en Informatique, que je compléterai par un Master dans le même domaine.
+                    </p>          
+                </div>
+            </div> 
+
+            <div class="row pt-10">
+                <div class="col-9">
+                    <p>2018-2019</p>
+                    <p>Génie électrique spécialité informatique a Universite du Quebec a Trois Rivières au Canada</p>
+                </div>
+                <div class="col-2">
+                    <img src="{{asset('build/v-UQTR.png')}}" alt="test">
+                </div>
+            </div>
+
+        <div class="row pt-10">
+          <div class="col-2">
+            <img src="{{asset('build/v-UQTR.png')}}" alt="test">
+          </div>
+          <div class="col-9 text-al-end">
+            <p>2019-2020</p>
+            <p>Baccalauréat informatique  a Universite du Quebec a Trois Rivières au Canada</p>
+          </div>
+        </div>
+
+            <div class="row pt-10">
+                <div class="col-9">
+                    <p>2020-2021</p>
+                    <p>Bachelor Cycle d'Ingénierie Informatique a ETNA, Ecole des Technologies Numériques Avancées - Campus Paris-Ivry</p>
+                </div>
+                <div class="col-2">
+                     <img src="{{asset('build/UHXzdngc_400x400.jpeg')}}" alt="test">
+                </div>
+            </div>
+
+        </div>
+      </div>
+    </div> 
+    {%include 'footer.html.twig'%}
+{% endblock %}

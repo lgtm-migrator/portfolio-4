@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+{% block title %}Jeremie Cyrille{% endblock %}
+{% block body %}
+{%include 'usnavbar.html.twig'%}
+    <div class="content">
+      <div class="container">
+        <div class="row pt-10">
+          <div class="col-12">
+            <p class="fade-in-text">
+              Hello, I'm Jérémie CYRILLE! I'm in CS bachelor at ETNA.<br />
+              This is the summary of all my Projects and skills I do and
+              learn.<br/>
+              I give also all infomation about my career.<br />
+            </p>
+          </div>
+          <div class="col-12">
+            <a href="{{path('carrer')}}" class="external-light">More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+{%include 'footer.html.twig'%}
+{% endblock %}
