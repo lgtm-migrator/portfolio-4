@@ -19,5 +19,9 @@
     "dependencies": {
         "jquery": "^3.6.0",
         "lazyload": "^2.0.0-rc.2"
+    },
+    "engines": {
+        "node": "12.18.2",
+        "yarn" : "1.22.5"
     }
 }
