@@ -2,8 +2,8 @@
 html,
 body {
   font-family: "Caveat", cursive;
-  font-size: 1.4vw;
-  line-height: 1.4em;
+  font-size: 1.7vw;
+  line-height: 1.7em;
   color: #000;
   background-color: #D6FFF6;
   padding: 0;
@@ -253,4 +253,14 @@ a.external-dark::after {
   align-items: center;
   width: fit-content;
   align-self: center;
+}
+h1 {
+  font-size: 2em;
+  line-height: 1em;
+  letter-spacing: -.035em;
+}
+.bolt{
+  font-size: 2em;
+  line-height: 1em;
+  letter-spacing: -.035em; 
 }
