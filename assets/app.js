@@ -10,7 +10,7 @@ import './styles/app.css';
 // start the Stimulus application
 import './bootstrap';
 $(window).bind("load", function() { 
-       
+    
     var footerHeight = 0,
         footerTop = 0,
         $footer = $("footer");
