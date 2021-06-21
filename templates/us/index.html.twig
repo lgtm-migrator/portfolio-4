@@ -1,24 +1,24 @@
 {% extends 'base.html.twig' %}
-{% block title %}Jeremie Cyrille{% endblock %}
+{% block title %}Jeremie Cyrille
+{% endblock %}
 {% block body %}
 {%include 'usnavbar.html.twig'%}
-    <div class="content">
-      <div class="container">
-        <div class="row pt-10">
-          <div class="col-12">
-            <h1 class="fade-in-text">
-              Hello, I'm Jérémie CYRILLE! I'm in CS bachelor at ETNA.<br />
-              This is the summary of all my Projects and skills I do and
-              learn.<br/>
-              I give also all infomation about my career.<br />
-            </h1>
-          </div>
-          <div class="col-12">
-          <h1><a href="{{path('carrer')}}" class="external-light">More</a></h1>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-{%include 'footer.html.twig'%}
+	<div class="content">
+		<div class="container">
+			<div class="row ">
+				<div class="col-12">
+					<span><img src="{{asset("build/coding-svg-clipart.svg")}}" alt="test" width="50em"></span>
+				</div>
+				<div class="col-12">
+					<p class="fade-in-text text-al-center">
+						A eternal dreamer who don't want to stop learning.<br>
+							« Always aim for the moon, because even if you fail, you end up in the stars. »<br> 
+						<a href="{{path('carrer')}}" class="external-dark bolt">Discover</a>
+					</p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	{%include 'footer.html.twig'%}
 {% endblock %}
