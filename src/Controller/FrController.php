@@ -16,9 +16,7 @@ class FrController extends AbstractController
      */
     public function index(): Response
     {
-        return $this->render('fr/index.html.twig', [
-            'controller_name' => 'HomeController',
-        ]);
+        return $this->render('fr/index.html.twig');
     }
 
     /**
@@ -26,9 +24,7 @@ class FrController extends AbstractController
      */
     public function project(): Response
     {
-        return $this->render('fr/project.html.twig', [
-            'controller_name' => 'ProjectController',
-        ]);
+        return $this->render('fr/project.html.twig');
     }
 
     /**
@@ -36,8 +32,6 @@ class FrController extends AbstractController
      */
     public function carrer(): Response
     {
-        return $this->render('fr/carrer.html.twig', [
-            'controller_name' => 'CarrerController',
-        ]);
+        return $this->render('fr/carrer.html.twig');
     }
 }

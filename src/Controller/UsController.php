@@ -16,9 +16,7 @@ class UsController extends AbstractController
      */
     public function index(): Response
     {
-        return $this->render('us/index.html.twig', [
-            'controller_name' => 'HomeController',
-        ]);
+        return $this->render('us/index.html.twig');
     }
 
     /**
@@ -26,9 +24,7 @@ class UsController extends AbstractController
      */
     public function project(): Response
     {
-        return $this->render('us/project.html.twig', [
-            'controller_name' => 'ProjectController',
-        ]);
+        return $this->render('us/project.html.twig');
     }
 
     /**
@@ -36,9 +32,7 @@ class UsController extends AbstractController
      */
     public function carrer(): Response
     {
-        return $this->render('us/carrer.html.twig', [
-            'controller_name' => 'CarrerController',
-        ]);
+        return $this->render('us/carrer.html.twig');
     }
 }
 
