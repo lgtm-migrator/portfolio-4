@@ -293,3 +293,15 @@ html.is-animating .transition-fade {
   width: 1em;
   vertical-align: middle
 }
+.w-5{
+  width: 9em;
+  border-radius: 15%;
+  text-align:justify;
+}
+.lol{
+  box-sizing: border-box;
+  align-self: center;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
