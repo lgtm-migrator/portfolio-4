@@ -238,7 +238,8 @@ a.external-dark::after {
   margin-top: 25vh;
 }
 .align-items-center {
-  align-items: center !important;
+  justify-content: center !important;
+  align-items: center;
 }
 .contentflexbox {
   background-color: #fff;
@@ -287,4 +288,8 @@ h1 {
 
 html.is-animating .transition-fade {
   opacity: 0;
+}
+.w-3{
+  width: 1em;
+  vertical-align: middle
 }
